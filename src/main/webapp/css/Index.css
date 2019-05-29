@@ -1,0 +1,186 @@
+body{
+    padding: 10px 0;
+    margin: 0;
+    background-color: #fbfdfd;
+}
+
+textarea{
+    margin: 0 auto;
+    border: 1px solid #ebafac;
+    border-width: 1px 0 1px 1px;
+    background-color: white;
+    /*box-shadow: 0 0 2px rgb(169, 169, 169);*/
+}
+
+#MathOutput{
+    margin: 0 auto 0 auto;
+    display: inline-block;
+}
+
+#title{
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+}
+
+#input-div{
+    width: 70%;
+    min-width: 400px;
+    height: 35px;
+    margin: 15px auto;
+    text-align:center;
+}
+
+button{
+    width: 10%;
+    box-sizing: border-box;
+    height: 100%;
+    background: linear-gradient(to bottom, #da404a 0, #ca113c 100%) repeat-x;
+    border: solid #ca113c;
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 4px 4px 0;
+    float: left;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+#table{
+    min-height: 70%;
+    padding: 10px 100px;
+}
+
+th, td{
+    text-align: center;
+}
+
+#math-input{
+    width: 77%;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    height: 100%;
+    resize: vertical;
+    font-size: 16px;
+    padding: 6px 8px 4px 8px;
+    float: left
+}
+
+#output{
+    display: none;
+}
+
+textarea:hover, #selection:hover{
+    border-color: #ca113c ;
+}
+textarea:focus, #selection:focus{
+    outline: 0;
+    border-color: #ca113c ;
+}
+
+button:focus{
+    outline: 0;
+}
+button:hover{
+    background: #ca113c;
+}
+
+.item{
+    padding-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(191, 191, 191);
+}
+.formula{
+    padding-left: 10px;
+    padding-right: 8px;
+    min-width: 30%;
+    display: inline-block;
+    /*margin-right: 15px;*/
+    border: 1px dotted #e0e0e1;
+    border-width: 0px 1px 0px 0px;
+    margin: auto 8px;
+    text-align: center;
+}
+
+.title{
+    display: table;
+    color: #18afca;
+    font-size: 18px;
+    margin: 0 10px 8px;
+}
+
+.term{
+    margin: auto 0;
+    display: inline-block;
+    max-width: 60%;
+}
+
+.term p{
+    font-family: "Georgia", serif;
+    margin: 5px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#output-div{
+    text-align: center;
+}
+.MJXc-display{
+    display: inline-block;
+}
+
+#selection{
+    width: 13%;
+    box-sizing: border-box;
+    height: 100%;
+    border: solid #ebafac;
+    border-width: 1px 0 1px 1px;
+    text-align: center;
+    padding-left: 2px;
+    float: left;
+    color: #000000;
+    font-weight: 500;
+}
+
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+.formula-inline{
+    text-align: center;
+    padding: 2px 6px;
+}
+
+#table-formula{
+    margin: 10px auto;
+    min-width: 80%;
+    border-color: white;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+#table-formula .item{
+    /*min-width: 49%;*/
+    margin: 4px;
+}
+
+#table-formula .title{
+    color: #18afca;
+    font-size: 18px;
+    margin: 10px 8px;
+    width: 210px;
+    text-align: left;
+}
+
+tbody tr td:first-child{
+    border-right: 1px dotted #e0e0e1;
+}
+
+tr{
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgb(191, 191, 191);
+    margin-bottom: 10px;
+}
